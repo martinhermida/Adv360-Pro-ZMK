@@ -75,5 +75,15 @@
 &trans  &trans  &trans        &trans         &trans                  &trans  &trans  &trans      &trans  &trans  &trans                      &trans          &trans        &trans          &trans           &trans
             >;
         };
+
+        symbols {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans           &trans                &trans                 &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp AMPERSAND    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp EQUAL        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON      &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans           &trans                &trans                 &trans         &trans
+            >;
+        };
     };
 };

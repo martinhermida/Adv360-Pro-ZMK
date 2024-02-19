@@ -78,11 +78,11 @@
 
         symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans           &trans                &trans                 &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp AMPERSAND    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp EQUAL        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON      &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans           &trans                &trans                 &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans             &trans            &trans                &trans                 &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans             &kp AMPERSAND     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp EXCL           &kp EQUAL         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON      &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                     &kp MINUS         &kp UNDERSCORE        &trans                 &trans         &trans
             >;
         };
     };
